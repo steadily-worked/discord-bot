@@ -1,1 +1,1 @@
-# discord-bot
+# LIKELION HUFS X EWHA 연합 세션
