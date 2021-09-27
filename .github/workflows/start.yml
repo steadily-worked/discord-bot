@@ -32,4 +32,5 @@ jobs:
           DISCORD_AVATAR: https://cdn-icons-png.flaticon.com/512/25/25231.png
         uses: Ilshidur/action-discord@master
         with:
-          args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
+          args: "Hello GitHub Actions: {{ GITHUB_EVENT_NAME }}"
+          # args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
