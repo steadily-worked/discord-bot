@@ -4,6 +4,8 @@ name: CI
 
 # Controls when the workflow will run
 on:
+  # 메인 브랜치인 경우만 해당
+  # 어떤 workflow가, 이벤트 트리거 시에 실행이 될지
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
@@ -25,12 +27,5 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - name: discord-bot
+        run: echo 'discord-bot'
