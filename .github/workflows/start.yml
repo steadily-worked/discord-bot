@@ -29,7 +29,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME: Steadily
-          DISCORD_AVATAR: https://cdn-icons-png.flaticon.com/512/25/25231.png
+          DISCORD_AVATAR: https://images.velog.io/images/nathan29849/post/344b519b-f338-45a9-8f24-75fe8f6253f5/image.png
         uses: Ilshidur/action-discord@master
         with:
           args: "Hello GitHub Actions: {{ GITHUB_EVENT_NAME }}"
