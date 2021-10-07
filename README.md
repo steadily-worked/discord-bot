@@ -1,1 +1,3 @@
-# LIKELION HUFS X EWHA 연합 세션
+# discord-bot
+
+Discord-bot using GitHub Actions
